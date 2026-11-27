@@ -1,6 +1,6 @@
 import pandas as pd
-from sklearn.linear_model import LinearRegression
-from sklearn.preprocessing import LabelEncoder
+from scikit-learn.linear_model import LinearRegression
+from scikit-learn.preprocessing import LabelEncoder
 import streamlit as st 
 
 df = pd.read_excel('c:/PythonCode/CarPrice.xlsx')
