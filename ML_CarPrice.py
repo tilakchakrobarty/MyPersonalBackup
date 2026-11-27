@@ -3,7 +3,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import LabelEncoder
 import streamlit as st 
 
-df = pd.read_excel('c:/PythonCode/CarPrice.xlsx')
+df = pd.read_excel('CarPrice.xlsx')
 
 st.title('Car Price Prediction') 
 
